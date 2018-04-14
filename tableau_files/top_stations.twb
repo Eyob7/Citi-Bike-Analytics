@@ -11,13 +11,13 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='stations' name='textscan.1d50dor09phxdu13i38na1e5awtr'>
-            <connection class='textscan' directory='/Users/jenny/Desktop' filename='stations.csv' password='' server='' />
+            <connection class='textscan' directory='/Users/jenny/Desktop/NEW/Citi-Bike-Analytics/csv' filename='stations.csv' password='' server='' />
           </named-connection>
           <named-connection caption='stations2' name='textscan.1eledqa1nbri991fphmli0oyaeqh'>
-            <connection class='textscan' directory='/Users/jenny/Desktop' filename='stations2.csv' password='' server='' />
+            <connection class='textscan' directory='/Users/jenny/Desktop/NEW/Citi-Bike-Analytics/csv' filename='stations2.csv' password='' server='' />
           </named-connection>
           <named-connection caption='stations3' name='textscan.1pn6ps30n7v32x199lvqd10exlkb'>
-            <connection class='textscan' directory='/Users/jenny/Desktop' filename='stations3.csv' password='' server='' />
+            <connection class='textscan' directory='/Users/jenny/Desktop/NEW/Citi-Bike-Analytics/csv' filename='stations3.csv' password='' server='' />
           </named-connection>
         </named-connections>
         <relation join='inner' type='join'>
@@ -60,7 +60,6 @@
               <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
               <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
               <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='record-delimiter'>&quot;\\r&quot;</attribute>
               <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
             </attributes>
           </metadata-record>
@@ -99,7 +98,6 @@
               <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
               <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
               <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='record-delimiter'>&quot;\\r&quot;</attribute>
               <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
             </attributes>
           </metadata-record>
@@ -135,7 +133,7 @@
       <column aggregation='Sum' caption='Stationid' datatype='integer' name='[stationid]' role='dimension' type='ordinal' />
       <column caption='Totalendstation' datatype='integer' name='[totalendstation]' role='measure' type='quantitative' />
       <column caption='Totalstartstation' datatype='integer' name='[totalstartstation]' role='measure' type='quantitative' />
-      <layout dim-ordering='alphabetic' dim-percentage='0.450658' measure-ordering='alphabetic' measure-percentage='0.549342' show-structure='true' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.412829' measure-ordering='alphabetic' measure-percentage='0.587171' show-structure='true' />
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
